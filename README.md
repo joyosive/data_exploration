@@ -14,9 +14,23 @@ data_exploration/
     ├── run_analysis.py              # Main execution script
     ├── contract_events.csv          # Dataset (20k records)
     ├── event_type_frequency.png     # Visualization output
-    ├── TASK2_ANALYSIS.md            # Detailed approach & assumptions
+    ├── task2_analysis.md            # Detailed approach & assumptions
     └── pyproject.toml               # Project dependencies
 ```
+
+## Quick Access Links
+
+### Task 1: SQL Revenue Analysis
+- **[Dune Query](https://dune.com/queries/5632603/9154629)** - Live executable query
+- **[SQL Code](task1_sql/final_revenue_query.sql)** - Revenue calculation implementation  
+- **[Analysis Report](task1_sql/task1_revenue_analysis.md)** - Strategic insights & recommendations
+
+### Task 2: Python Event Analysis
+- **[Core Analysis](task2_python/event_analysis.py)** - Main analysis functions
+- **[Execution Script](task2_python/run_analysis.py)** - Run the analysis
+- **[Visualization](task2_python/event_type_frequency.png)** - Event frequency charts
+- **[Technical Documentation](task2_python/task2_analysis.md)** - Methodology & assumptions
+- **[Dependencies](task2_python/pyproject.toml)** - Project configuration
 
 ## Task 1: DeFi Transaction Revenue Analysis
 
@@ -43,7 +57,7 @@ Analysis of swap transactions to calculate revenue based on tiered fee structure
     - Non-Stablecoin: $200,874.15
 
 ### Usage
-Execute the SQL query in `task1_sql/final_revenue_query.sql` in Dune Query Engine.
+Execute the SQL query in [`task1_sql/final_revenue_query.sql`](task1_sql/final_revenue_query.sql) in Dune Query Engine.
 
 ## Task 2: Smart Contract Event Analysis
 
@@ -73,7 +87,7 @@ uv run python run_analysis.py
 - **5 bot addresses** identified with coordinated behavior
 - **Data quality issues** found and documented
 
-**Detailed analysis**: See `task2_python/task2_analysis.md` for complete methodology, assumptions, & technical implementation details.
+**Detailed analysis**: See [`task2_python/task2_analysis.md`](task2_python/task2_analysis.md) for complete methodology, assumptions, & technical implementation details.
 
 ## Requirements
 
